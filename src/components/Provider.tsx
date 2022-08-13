@@ -8,7 +8,7 @@ const Providerr = ({children}) => {
   const checkToken = () => { 
    const token = localStorage.getItem("token");
     if(!token){
-      navigate("/", { replace: true });
+      navigate("/login", { replace: true });
       console.log("aaaaaaaaaaa")
     }
    }
